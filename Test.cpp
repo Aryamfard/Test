@@ -6,17 +6,17 @@ int main() {
     int num1, num2, sum;
 
     // Ask user for input
-    std::cout << "Enter first number: ";
-    std::cin >> num1;
+    cout << "Enter first number: ";
+    cin >> num1;
 
-    std::cout << "Enter second number: ";
-    std::cin >> num2;
+    cout << "Enter second number: ";
+    cin >> num2;
 
     // Calculate the sum
     sum = num1 + num2;
 
     // Display the result
-    std::cout << "The sum is: " << sum << std::endl;
+    cout << "The sum is: " << sum << endl;
 
     return 0;
 }
